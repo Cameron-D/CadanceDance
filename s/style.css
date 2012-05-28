@@ -1,0 +1,107 @@
+body {
+background: #64b04f url("background2.jpg") top center no-repeat;
+padding: 0;
+margin: 0;
+font-family: arial, sans-serif;
+font-size: small;
+}
+/*hack*/
+@media screen and (max-width: 1392px) {body {background-position: -273px top;}}
+#animation {
+width: 1372px;
+height: 606px;
+margin: 0 auto;
+position: relative;
+top: 129px;
+padding-bottom: 50px;
+}
+#animation img {
+position: absolute;
+top: 0;
+}
+#lights,#party {
+position: absolute;
+display:none;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(255,0,0,0.2);
+}
+#party {
+background: #fff;
+}
+#video {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 15;
+width: 300px;
+background: #000;
+}
+#create {
+position: absolute;
+top: 0;
+right: 0;
+z-index: 20;
+width: 320px;
+background: #000;
+}
+#lightson,#showcreate,#partyhard,#vidlink {
+display: block;
+width: 100%;
+height: 20px;
+font-weight: bold;
+color: #fff;
+text-align:center;
+}
+#play,#stop {
+display: inline-block;
+width: 145px;
+height: 20px;
+font-weight: bold;
+color: #fff;
+text-align:center;
+}
+#footer {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 17px;
+background: #000;
+text-align: center;
+color: #ccc;
+z-index: 10;
+}
+#error {
+position: absolute;
+top: 0;
+left: 300px;
+right: 320px;
+background: #000;
+text-align: center;
+color: #f00;
+font-size: 20px;
+z-index: 10;
+}
+#footer a {
+color: #fff;
+}
+#createcontent {
+background: #000;
+color: #fff;
+padding: 5px;
+font-size: 14px;
+line-height: 20px;
+border-top: 1px solid #fff;
+}
+input[type="text"] {
+background: #444;
+border: 0;
+border-bottom: 1px solid #fff;
+color: #fff;
+}
+h1 {
+display: none;
+}

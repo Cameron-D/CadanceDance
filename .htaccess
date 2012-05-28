@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^([\w-]{11})/([0-9]*)/([0-9]*) index.php?vid=$1&bpm=$2&start=$3 [NC,L]
+RewriteRule ^([\w-]{11})/([0-9]*) index.php?vid=$1&bpm=$2 [NC]
