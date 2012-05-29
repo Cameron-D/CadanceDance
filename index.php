@@ -20,7 +20,7 @@ if(!isset($_GET['vid'])) { $start=35; }
 <html>
 	<head>
 		<title>Cadance Dance</title>
-		<link rel="stylesheet" type="text/css" href="/s/style.css?recache=4" />
+		<link rel="stylesheet" type="text/css" href="/s/style.css" />
 		<script type="text/javascript">var bpm=<?php echo $bpm; ?>;var video='<?php echo $vid; ?>';var time=<?php echo $start; ?>;</script>
 	</head>
 	<body>
@@ -67,6 +67,6 @@ if(isset($_GET['e'])) {
 		</div>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" ></script>
-		<script type="text/javascript" src="/s/script.min.js?recache=8"></script>
+		<script type="text/javascript" src="/s/script.js"></script>
 	</body>
 </html>
